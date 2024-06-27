@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+header{
+    font-family: Inter, 'sans-serif';
+}
+header > span > h1{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+/*
+*   Subtitle.
+*/
+.chooseyourformat{
+    font-family: Inter, 'sans-serif';
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.spanGithub{
+    font-family: Inter,'sans-serif';
+    font-weight: 700;
+    text-decoration: none;
+    color: pink;
+    padding-left: 0.2em;
+}
+/*
+*   Upload files and select format.
+*/
+.container{
+    display: flex;
+    justify-content: center;
+}
+.divInputFile{
+    margin-right: 4em;
+}
+.divSelect{
+    margin-right: 4em;
+}
+input{
+    font-family: Inter, 'sans-serif';
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+#pd1ID, #pd2ID{
+    text-decoration: none;
+    color: gray;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+/*
+*   Preview image.
+*/
+.containImage{
+    display: flex;
+    justify-content: center;
+}
+.imgRounded{
+    border-radius: 100%;
+    object-fit: cover;
+    width: 15em;
+    height: 15em;
+    margin-top: 6em;
+    margin-bottom: 4em;
+    margin-left: 2em;
+    margin-right: 2em;
+    filter: drop-shadow(0em 0em 4em rgba(0,0,0,0.100));
+}

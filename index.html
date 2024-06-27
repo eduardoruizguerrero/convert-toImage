@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!--font-->
+    <!--ico-->
+    <link rel="icon" type="image/x-icon" href="kura_won.png">
+    <link rel="stylesheet" href="style.css">
+    <!--css-->
+    <title>convert-toImage</title>
+</head>
+<body>
+    <header>
+        <span>
+            <h1>
+                convert-toImage
+            </h1>
+        </span>
+    </header>
+    <div class="chooseyourformat">
+        <span>convert your image to PNG, JPG and WEBP. Choose your favorite format!.</span>
+        <a class="spanGithub" href="https://www.github.com/eduardoruizguerrero" target="_blank"><span class="spanGithub">github :3</span></a>
+    </div>
+    <div class="container">
+        <div class="divInputFile">
+            <input type="file" name="uploadImage" multiple id="uploadImageID" class="uploadImageCLASS" >
+        </div>
+        <div class="divSelect">
+            <select name="selectTo" id="selectTo">
+                <option value="disabled" id="disabledID">disabled</option>
+                <option value="png" id="pngID">png</option>
+                <option value="jpg" id="jpgID">jpg</option>
+                <option value="webp" id="webpID">webp</option>
+            </select>
+        </div>
+        <div class="divDownload">
+            <button class="buttond1CLASS" id="buttond1ID">
+                <a download href="" id="d1ID">download 1</a>
+                <p id="pd1ID">download 1</p>
+            </button>
+            <button class="buttond2CLASS" id="buttond2ID">
+                <a download href="" id="d2ID">download 2</a>
+                <p id="pd2ID">download 2</p>
+            </button>
+        </div>
+    </div>
+    <div class="containImage">
+        <span title="download 1">
+            <img id="imgRounded1" class="imgRounded" src="" alt=" " height="20em">
+        </span>
+        <span title="download 2">
+            <img id="imgRounded2" class="imgRounded" src="" alt=" " height="20em">
+        </span>
+    </div>
+    <script src="convert.js"></script>
+</body>
+</html>
